@@ -6,11 +6,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.1.3] - 2020-09-11
+- Test release
+
 ## [1.1.2] - 2019-01-07
 - Added valgrind to travis-ci linux builds
 - Fixed output buffer overrun error due to incorrect buffer size answer
 - Fixed output buffer overrun error due to limited characters
 - Fixed input buffer read overrun error
+
 ## [1.1.1] - 2018-10-18
 - Added travis-ci
 - Travis build for MacOSX
@@ -19,6 +23,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Uses CTest module to build with test disabled
 - Add the trower-base64 directory into the include to fix consumers of this project
 - Changed cmake minimum version required from 3.3.2 to 2.8.7
+
 ## [1.1] - 2016-02-15
 ### Added
 - Add base64url decode implementaion
